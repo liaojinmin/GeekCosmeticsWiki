@@ -28,3 +28,16 @@ cosmetics:
       # 物品的 modelData
       customModelData: 20000
 ```
+
+## itemStack(物品源)
+| **节点**                 | **作用**               |
+|------------------------|----------------------|
+| **itemSource**         | 物品所属源                |
+| **material**           | 物品的原版材质              |
+| **name**               | 物品在UI展示名字            |
+| **lore**               | 物品在UI描述              |
+| **customModelData**    | 模型ID                 |
+| **itemID**             | 当使用其它源时的索引ID(可选)     |
+| **useModel**           | 是否使用ModelEngine源(可选) | 
+| **closeBalloonAction** | 是否关闭气球摇摆动画           |
+| **allowColor**         | 是否允许上色               |
